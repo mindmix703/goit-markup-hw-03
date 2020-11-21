@@ -1,0 +1,168 @@
+/* общие настройки стиля текста*/
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+  color: var(--primary-text-color);
+}
+
+/* цветовые настройки для переменной */
+:root {
+  --primary-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --background-color: #f5f4fa;
+  --secondary-background-color: #2f303a;
+}
+
+/*стиль текста шапки*/
+.header-nav {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.header-nav a:hover,
+.header-nav a:focus,
+.contacts-header a:hover,
+.contacts-header a:focus,
+.current {
+  color: var(--accent-color);
+}
+.contacts-header a {
+  color: var(--second-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* стиль текста в герое */
+.hero {
+  background-color: var(--secondary-background-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero a {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* раздел - особенности */
+.features-list p {
+  color: var(--second-text-color);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.features-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/*раздел - чем мы занимаемся*/
+.visual-features h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*наша команда*/
+.team {
+  background-color: var(--background-color);
+}
+.team h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-member {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-profession {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+/* стиль фона и текста в подвале */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+.footer-address a {
+  color: var(--second-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.footer-address a:hover,
+.footer-address a:focus {
+  color: var(--accent-color);
+}
+#contact {
+  color: var(--primary-white-color);
+}
+#contact:hover,
+#contact:focus {
+  color: var(--accent-color);
+}
+
+/* стиль фона и текста в новой странице - портфолио */
+
+/* навигация */
+.portfolio-filter a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--background-color);
+}
+.portfolio-filter a:hover,
+.portfolio-filter a:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.portfolio-service {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
