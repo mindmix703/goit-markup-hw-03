@@ -41,7 +41,7 @@
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -51,6 +51,7 @@
 }
 
 .logo-span {
+  font-family: "Raleway";
   color: var(--accent-color);
 }
 
